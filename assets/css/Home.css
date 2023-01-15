@@ -60,11 +60,19 @@ body{
       display: none;
     }
 }
+
+#BankName{
+    font-size: 40px;
+    margin-left: 39%;
+}
 @media only screen and (max-width: 991px) {
     #BankName{
       font-size: 28px;
       margin-left: 0;
     }
+}
+.BankLogo{
+    width: 5%;
 }
 @media only screen and (max-width: 991px) {
     .BankLogo{
@@ -140,10 +148,4 @@ footer{
     color: #D44638;
 }
 /* footer css ends here  */
-.BankLogo{
-    width: 5%;
-}
-#BankName{
-    font-size: 40px;
-    margin-left: 39%;
-}
+
