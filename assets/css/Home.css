@@ -60,6 +60,17 @@ body{
       display: none;
     }
 }
+@media only screen and (max-width: 991px) {
+    #BankName{
+      font-size: 28px;
+      margin-left: 0;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .BankLogo{
+      width: 43px;
+    }
+}
 
 .get-started{
     border-radius: 0.5rem;
